@@ -1,19 +1,20 @@
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
     color: inherit;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 img {
     max-width: 100%;
+}
+
+button {
+    all: unset;
 }
 
 label,
@@ -24,6 +25,77 @@ summary,
 [type=submit],
 [type=checkbox] {
     cursor: pointer;
+}
+
+html {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #111729;
+    text-align: center;
+}
+
+.hero {
+    background-color: #20293A;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15rem auto 1rem;
+    padding: 3rem;
+    position: relative;
+    width: 80%;
+}
+
+.hero img {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.author {
+    color: #FFF;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.generate-new-btn {
+    border: 1px solid #6466E9;
+    border-radius: 1rem;
+    color: #6466E9;
+    font-size: 0.625rem;
+    margin: 0.3rem;
+    padding: 0.3rem 1rem;
+}
+
+.quote {
+    color: #97A3B6;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.cta-container {
+    display: inline-block;
+    border: 1px solid #4A5567;
+    border-radius: 0.7rem;
+}
+
+.primary {
+    border-color: #4A5567;
+    border-right-style: solid;
+    border-width: 1px;
+}
+
+.cta-btn {
+    margin: auto;
+    padding: 0.3rem 0.7rem;
+}
+
+.cta-btn-icon {
+    width: 2rem;
 }
 
 @media (min-width: 1200px) {
