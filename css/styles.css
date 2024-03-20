@@ -46,10 +46,10 @@ body {
     margin: 15rem auto 1rem;
     padding: 3rem;
     position: relative;
-    width: 80%;
+    width: 30rem;
 }
 
-.hero img {
+.hero-background {
     bottom: 0;
     right: 0;
     position: absolute;
@@ -99,5 +99,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+    .hero {
+        width: 40rem;
+    }
 
+    .hero-background {
+        max-height: 100%;
+    }
 }
