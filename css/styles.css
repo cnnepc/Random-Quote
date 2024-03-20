@@ -62,10 +62,11 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.generate-new-btn {
+.tag {
     border: 1px solid #6466E9;
     border-radius: 1rem;
     color: #6466E9;
+    display: inline-block;
     font-size: 0.625rem;
     margin: 0.3rem;
     padding: 0.3rem 1rem;
